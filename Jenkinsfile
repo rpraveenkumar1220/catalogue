@@ -1,4 +1,5 @@
 @Library('roboshop') _
-nodejs()
 
-//this is v1.1
+env.cibuild = "nodejs"
+env.component = "catalogue"
+mainci()
